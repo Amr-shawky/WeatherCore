@@ -62,13 +62,14 @@
     </div>
     <div class="forecast-table">
         <div class="container ">
-            <div class="forecast-container d-flex  row-cols-3 p-2" id="forecast">
+            <div class="forecast-container d-flex  row-cols-3 p-2 text-white-50" id="forecast">
                 <div class="today forecast rounded-start-4 bg-darkblue">
-                    <div class="p-2 forecast-header d-flex justify-content-between bg-darkblue3 rounded-end-0 rounded-top-4" id="today">
+                    <div class="p-2 forecast-header d-flex  justify-content-between bg-darkblue3 rounded-end-0 rounded-top-4"
+                        id="today">
                         <div class="day">Tuesday</div>
                         <div class=" date">1July</div>
                     </div> <!-- .forecast-header -->
-                    <div class="forecast-content p-2" id="current">
+                    <div class="forecast-content px-4 py-4" id="current">
                         <div class="location">Cairo</div>
                         <div class="degree">
                             <div class="num">30.3<sup>o</sup>C</div>
@@ -78,23 +79,25 @@
                             </div>
 
                         </div>
-                        <div class="custom">Partly cloudy</div>
-                        <span><img src="images/icon-umberella.png" alt="">20%</span>
-                        <span><img src="images/icon-wind.png" alt="">18km/h</span>
-                        <span><img src="images/icon-compass.png" alt="">East</span>
+                        <div class="custom pb-4">Partly cloudy</div>
+                        <div class="forecast-details d-flex justify-content-between">
+                            <span><img  class="pe-1" src="./Assets/Images/imgi_3_icon-umberella.png" alt="">20%</span>
+                            <span><img  class="pe-1" src="./Assets/Images/imgi_4_icon-wind.png" alt="">18km/h</span>
+                            <span><img  class="pe-1" src="./Assets/Images/imgi_5_icon-compass.png" alt="">East</span>
+                        </div>
                     </div>
                 </div>
-                <div class="forecast text-center bg-darkblue2">
+                <div class="forecast text-center bg-darkblue2 ">
                     <div class=" py-2 forecast-header bg-darkblue4">
                         <div class="day">Wednesday</div>
                     </div> <!-- .forecast-header -->
                     <div class="py-2 forecast-content">
-                        <div class="forecast-icon">
+                        <div class="forecast-icon py-4">
                             <img src="https://cdn.weatherapi.com/weather/64x64/day/113.png" alt="" width="48">
                         </div>
                         <div class="degree">37.9<sup>o</sup>C</div>
                         <small>24.7<sup>o</sup></small>
-                        <div class="custom">Sunny</div>
+                        <div class="custom pt-4">Sunny</div>
                     </div>
                 </div>
                 <div class="forecast rounded-end-4 text-center bg-darkblue">
@@ -102,12 +105,12 @@
                         <div class="day">Thursday</div>
                     </div> <!-- .forecast-header -->
                     <div class="py-2 forecast-content">
-                        <div class="forecast-icon">
+                        <div class="forecast-icon py-4">
                             <img src="https://cdn.weatherapi.com/weather/64x64/day/113.png" alt="" width="48">
                         </div>
                         <div class="degree">39.8<sup>o</sup>C</div>
                         <small>25.6<sup>o</sup></small>
-                        <div class="custom">Sunny</div>
+                        <div class="custom pt-4">Sunny</div>
                     </div>
                 </div>
             </div>
