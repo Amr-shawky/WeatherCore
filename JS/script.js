@@ -74,9 +74,9 @@ function displayWeatherData(data) {
             const dayName = daysArr[dateObj.getDay()];
             const dateStr = `${dateObj.getDate()}${monthsArr[dateObj.getMonth()]}`;
             let forecastClass = "";
-            if (idx === 0) forecastClass = "today forecast rounded-start-4 bg-darkblue";
-            else if (idx === forecastDays.length - 1) forecastClass = "forecast rounded-end-4 text-center bg-darkblue";
-            else forecastClass = "forecast text-center bg-darkblue2";
+            if (idx === 0) forecastClass = "today px-0 forecast rounded-start-4 bg-darkblue";
+            else if (idx === forecastDays.length - 1) forecastClass = "forecast px-0 rounded-end-4 text-center bg-darkblue";
+            else forecastClass = "forecast px-0 text-center bg-darkblue2";
 
             let headerClass = "";
             if (idx === 0) headerClass = "p-2 forecast-header d-flex  justify-content-between bg-darkblue3 rounded-end-0 rounded-top-4";

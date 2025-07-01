@@ -1,0 +1,42 @@
+/* Extra small devices (phones, less than 576px) */
+@media screen and (max-width: 575.98px) {
+    /* CSS rules for extra small devices */
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
+    /* CSS rules for small devices */
+        .forecast-container{
+    height: 925px !important;
+}
+.forecast-table {
+    background-color: #1E202B ;
+    color: #fff !important;
+        height: 1100px !important;
+
+}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+    .forecast-container{
+    height: 725px !important;
+}
+.forecast-table {
+    background-color: #1E202B ;
+    color: #fff !important;
+        height: 675px !important;
+
+}
+    /* CSS rules for medium devices */
+}
+
+/* Large devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) and (max-width: 1199.98px) {
+    /* CSS rules for large devices */
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+    /* CSS rules for extra large devices */
+}
