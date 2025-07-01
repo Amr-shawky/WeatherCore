@@ -61,3 +61,21 @@
     min-height: 350px;
     /* background-color: #1E202B; */
 }
+
+.find-location input[type="text"]{
+background-color: RGB(30, 32, 43)  !important;
+border: none !important;
+}
+
+
+.find-location input[type="button"] {
+    position: absolute;
+    right: 7px;
+    top: 6px;
+    width: 100px;
+    height: 43px;
+    border: none;
+}
+.find-location input[type="text"] :focus {
+    border: none !important;
+}
