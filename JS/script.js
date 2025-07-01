@@ -102,7 +102,7 @@ searchInput.addEventListener("input", async function() {
                                 <div class="day">${dayName}</div>
                                 <div class="date">${dateStr}</div>
                             </div>
-                            <div class="forecast-content ${idx === 0 ? 'px-4 py-4' : 'py-2'}" ${idx === 0 ? 'id="current"' : ''}>
+                            <div class="forecast-content ${idx === 0 ? 'px-4 py-4' : 'py-5'}" ${idx === 0 ? 'id="current"' : ''}>
                                 <div class="location">${idx === 0 ? data.location.name : ""}</div>
                                 <div class="degree">
                                     <div class="num">${day.day.maxtemp_c}<sup>o</sup>C</div>
@@ -116,7 +116,7 @@ searchInput.addEventListener("input", async function() {
                                 <div class="forecast-details d-flex justify-content-between">
                                     <span><img class="pe-1" src="./Assets/Images/imgi_3_icon-umberella.png" alt="">${day.day.avghumidity}%</span>
                                     <span><img class="pe-1" src="./Assets/Images/imgi_4_icon-wind.png" alt="">${day.day.maxwind_kph}km/h</span>
-                                    <span><img class="pe-1" src="./Assets/Images/imgi_5_icon-compass.png" alt="">${day.day.condition.text}</span>
+                                    <span><img class="" src="./Assets/Images/imgi_5_icon-compass.png" alt="">${day.day.condition.text}</span>
                                 </div>
                                 ` : ""}
                             </div>

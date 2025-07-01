@@ -90,6 +90,7 @@
 
  input[type="text"] :focus {
     border: none !important;
+    color: transparent !important;
 }
 
 .forecast-table {
@@ -127,7 +128,7 @@
 
 
 .forecast-details{
-    width: 230px;
+    min-width: 230px;
 }
 .degree{
     font-size: 24px;
