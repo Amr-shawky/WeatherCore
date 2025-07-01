@@ -112,7 +112,7 @@ function displayWeatherData(data) {
         });
 
         weatherDisplay.innerHTML = forecastHTML;
-        // log the data to the console for debugging and swal
+      
         console.log(data);
     }
 }
