@@ -12,20 +12,22 @@
 .navbar {
     background-color: #1E202B !important;
 }
+
 #navbarSupportedContent .navbar-nav .nav-link {
     font-size: 14px;
     color: #fff !important;
-        padding: 4px 25px !important;
-            border-radius: 30px;
+    padding: 4px 25px !important;
+    border-radius: 30px;
 
-            border: 2px solid transparent !important;
+    border: 2px solid transparent !important;
 
 }
 
-.logo-type{
+.logo-type {
     font-size: 11px !important;
     color: RGB(191, 193, 200) !important;
 }
+
 .logo-type h1 {
     font-size: 15px;
     font-weight: 700;
@@ -62,9 +64,9 @@
     /* background-color: #1E202B; */
 }
 
-.find-location input[type="text"]{
-background-color: RGB(30, 32, 43)  !important;
-border: none !important;
+.find-location input[type="text"] {
+    background-color: RGB(30, 32, 43) !important;
+    border: none !important;
 }
 
 
@@ -76,6 +78,18 @@ border: none !important;
     height: 43px;
     border: none;
 }
+
 .find-location input[type="text"] :focus {
     border: none !important;
+}
+
+.forecast-table {
+    background-color: #1E202B ;
+    color: #fff !important;
+}
+.bg-darkblue{
+    background-color: #323544 !important;
+}
+.bg-darkblue2{
+    background-color: #262936 !important;
 }

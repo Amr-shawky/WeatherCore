@@ -50,7 +50,8 @@
             </div>
         </div>
     </nav>
-    <div class="home" id="home" data-bg-image="./Assets/Images/imgi_7_banner.png" style="background-image: url(&quot;./Assets/Images/imgi_7_banner.png&quot;);">
+    <div class="home" id="home" data-bg-image="./Assets/Images/imgi_7_banner.png"
+        style="background-image: url(&quot;./Assets/Images/imgi_7_banner.png&quot;);">
         <div class="container pt-5">
             <form class="find-location position-relative">
                 <input class=" rounded-pill w-100 p-3" type="text" placeholder="Find your location..." id="search">
@@ -59,7 +60,59 @@
 
         </div>
     </div>
+    <div class="forecast-table">
+        <div class="container">
+            <div class="forecast-container d-flex  rounded-3 p-3 row-cols-3" id="forecast">
+                <div class="today forecast bg-darkblue">
+                    <div class="forecast-header d-flex justify-content-between" id="today">
+                        <div class="day">Tuesday</div>
+                        <div class=" date">1July</div>
+                    </div> <!-- .forecast-header -->
+                    <div class="forecast-content" id="current">
+                        <div class="location">Cairo</div>
+                        <div class="degree">
+                            <div class="num">30.3<sup>o</sup>C</div>
 
+                            <div class="forecast-icon">
+                                <img src="https://cdn.weatherapi.com/weather/64x64/day/116.png" alt="" width="90">
+                            </div>
+
+                        </div>
+                        <div class="custom">Partly cloudy</div>
+                        <span><img src="images/icon-umberella.png" alt="">20%</span>
+                        <span><img src="images/icon-wind.png" alt="">18km/h</span>
+                        <span><img src="images/icon-compass.png" alt="">East</span>
+                    </div>
+                </div>
+                <div class="forecast text-center bg-darkblue2">
+                    <div class="forecast-header">
+                        <div class="day">Wednesday</div>
+                    </div> <!-- .forecast-header -->
+                    <div class="forecast-content">
+                        <div class="forecast-icon">
+                            <img src="https://cdn.weatherapi.com/weather/64x64/day/113.png" alt="" width="48">
+                        </div>
+                        <div class="degree">37.9<sup>o</sup>C</div>
+                        <small>24.7<sup>o</sup></small>
+                        <div class="custom">Sunny</div>
+                    </div>
+                </div>
+                <div class="forecast text-center bg-darkblue">
+                    <div class="forecast-header">
+                        <div class="day">Thursday</div>
+                    </div> <!-- .forecast-header -->
+                    <div class="forecast-content">
+                        <div class="forecast-icon">
+                            <img src="https://cdn.weatherapi.com/weather/64x64/day/113.png" alt="" width="48">
+                        </div>
+                        <div class="degree">39.8<sup>o</sup>C</div>
+                        <small>25.6<sup>o</sup></small>
+                        <div class="custom">Sunny</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
