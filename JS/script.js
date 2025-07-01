@@ -143,3 +143,23 @@ searchInput.addEventListener("input", function() {
 window.addEventListener("DOMContentLoaded", function() {
     fetchAndDisplayWeather("Cairo");
 });
+
+// Add event listener for the search button
+searchButton.addEventListener("click",async function() {
+    let location = searchInput.value;
+        if (!location) return;
+    try {
+        let result = await fetch(apiUrl + location);
+        console.log("Fetching weather data for:", location);
+        if (!result.ok) {
+            throw new Error("Network response was not ok");
+        }
+        let data = await result.json();
+        console.log("Weather data received:", data);
+        displayWeatherData(data);
+    } catch (error) {
+        console.error("Fetch error:", error);
+        swal("Error", "Could not find weather data for the specified location.", "error");
+    }
+});
+
