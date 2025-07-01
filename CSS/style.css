@@ -15,6 +15,11 @@
 #navbarSupportedContent .navbar-nav .nav-link {
     font-size: 14px;
     color: #fff !important;
+        padding: 4px 25px !important;
+            border-radius: 30px;
+
+            border: 2px solid transparent !important;
+
 }
 
 .logo-type{
@@ -27,9 +32,32 @@
     color: #fff;
 }
 
-#navbarSupportedContent .navbar-nav .nav-link.active,#navbarSupportedContent .navbar-nav .nav-link.show {
+#navbarSupportedContent .navbar-nav .nav-link.active,
+#navbarSupportedContent .navbar-nav .nav-link.show,
+#navbarSupportedContent .navbar-nav .nav-link:hover {
     color: RGB(0, 154, 216) !important;
     padding: 4px 25px !important;
     border-radius: 30px;
     border: 2px solid RGB(0, 154, 216) !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* home */
+
+.home {
+    position: relative;
+    background-image: url('./Assets/Images/imgi_7_banner.png');
+    background-size: cover;
+    min-height: 350px;
+    /* background-color: #1E202B; */
 }

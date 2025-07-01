@@ -11,8 +11,9 @@
     <link rel="stylesheet" href="./CSS/style.css">
 </head>
 
-<body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="100" tabindex="0">
+
+    <nav id="navbar" class="navbar navbar-expand-lg bg-body-tertiary ">
         <div class="container">
             <a class="navbar-brand d-flex align-items-center" href="#">
                 <img src="./Assets/Images/imgi_1_logo.png" alt="" class="logo">
@@ -25,20 +26,20 @@
             <div class="collapse navbar-collapse " id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0 py-4-5">
 
-                    <li class="nav-item me-5">
-                        <a class="nav-link active" href="#">Home</a>
+                    <li class="nav-item me-2">
+                        <a class="nav-link active" href="#home">Home</a>
                     </li>
-                    <li class="nav-item me-5">
-                        <a class="nav-link" href="#">News</a>
+                    <li class="nav-item me-2">
+                        <a class="nav-link" href="#news">News</a>
                     </li>
-                    <li class="nav-item me-5">
-                        <a class="nav-link" href="#">Live Cameras</a>
+                    <li class="nav-item me-2">
+                        <a class="nav-link" href="#live">Live Cameras</a>
                     </li>
-                    <li class="nav-item me-5">
-                        <a class="nav-link" href="#">Photos</a>
+                    <li class="nav-item me-2">
+                        <a class="nav-link" href="#photos">Photos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -49,6 +50,17 @@
             </div>
         </div>
     </nav>
+    <div class="home" id="home" data-bg-image="./Assets/Images/imgi_7_banner.png" style="background-image: url(&quot;./Assets/Images/imgi_7_banner.png&quot;);">
+        <div class="container pt-5">
+            <form class="find-location ">
+                <input class="border border-2 border-black rounded-pill w-100 p-3 bg-black" type="text" placeholder="Find your location..." id="search">
+                <input type="button" value="Find" id="submit">
+            </form>
+
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="./JS/script.js"></script>
