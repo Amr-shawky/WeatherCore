@@ -10,10 +10,26 @@
         height: 1100px !important;
 
 }
+.subscribe-form{
+    padding-bottom: 40px !important;
+}
+
+footer {
+    background-color: #262936 !important;
+    height: 300px !important;
+}
+
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media screen and (min-width: 576px) and (max-width: 767.98px) {
+    footer {
+    background-color: #262936 !important;
+    height: 260px !important;
+}
+    .subscribe-form{
+    padding-bottom: 40px !important;
+}
     /* CSS rules for small devices */
         .forecast-container{
     height: 925px !important;
