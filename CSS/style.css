@@ -64,13 +64,13 @@
     /* background-color: #1E202B; */
 }
 
-.find-location input[type="text"] {
+ input[type="text"] {
     background-color: RGB(30, 32, 43) !important;
     border: none !important;
 }
 
 
-.find-location input[type="button"] {
+ input[type="button"] {
     position: absolute;
     right: 7px;
     top: 6px;
@@ -78,14 +78,25 @@
     height: 43px;
     border: none;
 }
+ input[type="submit"] {
+    position: absolute;
+    z-index: 900 !important;
+    right: 7px;
+    top: 6px;
+    width: 100px;
+    height: 43px;
+    border: none;
+}
 
-.find-location input[type="text"] :focus {
+ input[type="text"] :focus {
     border: none !important;
 }
 
 .forecast-table {
     background-color: #1E202B ;
     color: #fff !important;
+        height: 275px;
+
 }
 .forecast-container{
     height: 425px;
@@ -136,4 +147,10 @@
 footer {
     background-color: #262936 !important;
     height: 200px !important;
+}
+
+.w-icon{
+    width: 40px;
+    height: 40px;
+    background-color: #1E202B;
 }
