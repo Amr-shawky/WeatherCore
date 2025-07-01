@@ -128,3 +128,12 @@
 .custom{
     color: RGB(0, 154, 216);
 }
+
+
+
+/* footer */
+
+footer {
+    background-color: #262936 !important;
+    height: 200px !important;
+}
