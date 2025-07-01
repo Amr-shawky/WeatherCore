@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+.py-4-5 {
+    padding: 2.5rem 0 !important;
+}
+
+.navbar {
+    background-color: #1E202B !important;
+}
+#navbarSupportedContent .navbar-nav .nav-link {
+    font-size: 14px;
+    color: #fff !important;
+}
+
+.logo-type{
+    font-size: 11px !important;
+    color: RGB(191, 193, 200) !important;
+}
+.logo-type h1 {
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+}
+
+#navbarSupportedContent .navbar-nav .nav-link.active,#navbarSupportedContent .navbar-nav .nav-link.show {
+    color: RGB(0, 154, 216) !important;
+    padding: 4px 25px !important;
+    border-radius: 30px;
+    border: 2px solid RGB(0, 154, 216) !important;
+}
