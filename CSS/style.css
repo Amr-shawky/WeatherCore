@@ -87,9 +87,19 @@
     background-color: #1E202B ;
     color: #fff !important;
 }
+.forecast-container{
+    height: 460px;
+}
 .bg-darkblue{
     background-color: #323544 !important;
 }
 .bg-darkblue2{
     background-color: #262936 !important;
+}
+
+.bg-darkblue3{
+    background-color: #292c38 !important;
+}
+.bg-darkblue4{
+    background-color: #222530 !important;
 }
