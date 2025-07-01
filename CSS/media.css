@@ -1,6 +1,15 @@
 /* Extra small devices (phones, less than 576px) */
 @media screen and (max-width: 575.98px) {
     /* CSS rules for extra small devices */
+            .forecast-container{
+    height: 925px !important;
+}
+.forecast-table {
+    background-color: #1E202B ;
+    color: #fff !important;
+        height: 1100px !important;
+
+}
 }
 
 /* Small devices (landscape phones, 576px and up) */
